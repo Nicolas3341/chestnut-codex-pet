@@ -10,6 +10,9 @@
 
 ## 安装
 
+- macOS：使用下方脚本。
+- Windows：查看 [Windows 安装说明](docs/INSTALL_WINDOWS.md)，包含手动复制、备份、云端角色及 WSL 排查。Windows 实机运行尚未验证。
+
 下载本仓库或 Release 压缩包，在 macOS 终端进入解压目录后运行：
 
 ```sh

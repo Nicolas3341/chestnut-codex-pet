@@ -1,6 +1,6 @@
 {
   "displayName": "栗子（动作扩展版）",
-  "description": "默认站立、眨眼与呼吸；交互时露肚摇尾，另有舔爪和打哈欠。左右行走仍有滑步。",
+  "description": "母鸡蹲待机、轻踩奶工作、抬头等待、伸腿侧躺交互，保留舔爪。左右行走仍有滑步。",
   "spriteVersionNumber": 1,
   "spritesheetPath": "spritesheet.webp"
 }

@@ -1,6 +1,6 @@
 # Windows 安装说明
 
-适用于仓库当前发布版：站立待机、露肚交互、舔爪和打哈欠。体型修订预览尚未并入此发布版。
+适用于仓库当前发布版：母鸡蹲待机、伸腿侧躺交互、舔爪、轻踩奶和抬头等待。体型修订预览尚未并入此发布版。
 
 Windows 的宠物功能见 [OpenAI 官方 Pets 文档](https://learn.chatgpt.com/docs/pets)。本项目目前在 macOS 完成资源检查和云端上传，**尚未在 Windows 实机验证本角色的加载、切换和播放**。下面的本地安装方法以应用支持兼容的本地自定义角色加载器为前提。
 
@@ -12,7 +12,7 @@ GitHub 下载不会把制作者的云端宠物自动加入你的账号；跨设�
 
 ## 下载与手动安装
 
-1. 从 [Release 下载页面](https://github.com/Nicolas3341/chestnut-codex-pet/releases/tag/v1.1.0) 下载 `chestnut-codex-pet-v1.1.0.zip`，右键“全部解压”。也可在仓库首页选择 Code → Download ZIP 后解压。
+1. 从 [Release 下载页面](https://github.com/Nicolas3341/chestnut-codex-pet/releases/tag/v1.2.0) 下载 `chestnut-codex-pet-v1.2.0.zip`，右键“全部解压”。也可在仓库首页选择 Code → Download ZIP 后解压。
 2. 打开解压目录，找到 `pet` 文件夹，确认里面有 `pet.json` 和 `spritesheet.webp`。不要在压缩包内部直接操作。
 3. 完全退出桌面应用。对于使用默认 Codex home 的 Windows 本地环境，按 Win+R，输入 `%USERPROFILE%\.codex` 并回车；目录不存在时可在用户目录下创建 `.codex`。若应用明确设置了其他 `CODEX_HOME`，使用应用实际采用的目录。
 4. 在该目录下创建 `pets` 文件夹。如果已有 `pets\chestnut`，先把整个旧 `chestnut` 复制到 `.codex\pet-backups\chestnut-日期时间`，再覆盖。备份不要留在 `pets` 内。
@@ -73,7 +73,7 @@ Write-Host "资源复制并核对完成：$target"
 
 重新启动桌面应用，在宠物列表选择「栗子（动作扩展版）」。有自定义宠物刷新入口时可先刷新列表。
 
-检查默认待机、透明背景、拖动时左右朝向，以及任务状态切换。露肚使用现有 `jumping` 交互槽位，舔爪使用 `waving`，打哈欠使用 `waiting`；它们不是新增的独立按钮，能否触发及触发时机由应用控制。行走仍存在滑步。
+检查默认待机、透明背景、拖动时左右朝向，以及任务状态切换。侧躺使用现有 `jumping` 交互槽位，舔爪使用 `waving`，抬头使用 `waiting`，踩奶使用 `running`；它们不是新增的独立按钮，能否触发及触发时机由应用控制。行走仍存在滑步。
 
 ## 看不到角色或仍是旧版
 
